@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix clone</title>
+<style>*{
+    padding: 0;
+    margin: 0;
+}
+.Main{
+    background-image:url(netflixbg.jpg);
+    
+    height:600px;
+    background-size: 100% 600px;
+    
+    /* background-position: cover; */
+    opacity:0.975;
+   
+}
+.main2{
+    display:flex;
+    justify-content: space-around;
+    height: 300px;
+    padding:20px;
+
+}
+#div{
+    padding-left:300px;
+}
+#div button{
+    background-color: black;
+    color:white;
+    padding:5px 20px;
+    border:1px solid;
+    border-radius:5px;
+    
+}
+.main2 > span{
+    font-size:xx-large;
+    color:red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.main3{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+}
+.main3 p:first-child{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main3 p:nth-child(2){
+    font-size:20px;
+}
+.main3 p:nth-child(3){
+    font-size:20px;
+}
+#main4{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin: 10px;
+}
+#main4>:nth-child(1){
+    height:60px;
+    width: 350px;
+    border-radius: 10px;
+    background-color:black;
+    opacity:0.4;
+    color:white;
+}
+
+ #main4 > button{
+    display:flex;
+    font-size:x-large;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+    background-color: red;
+    color:white;
+    width: 180px;
+    border:1px solid red;
+    border-radius: 10px;
+}
+.MAIN2{
+    background-color: black;
+    height:600px;
+    margin-top:10px;
+    display:flex;
+    
+}
+.main5 {
+width: 50vw;
+color:white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top:100px
+}
+body{
+    background-color: rgb(26, 25, 25);
+}
+.main5>p{
+    font-size: 23px;
+    padding-left:100px
+}
+.main5>p:first-child{
+    font-size:45px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main6{
+    display:flex;
+    align-items: center;
+    padding-left: 190px;
+}
+.MAIN3{
+   background-color: black;
+   height:500px;
+   margin-top:10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 100px;
+}
+.main8{
+color: white;
+
+}
+.main8 >:nth-child(1){
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.main8 >:nth-child(2){
+    padding-left:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.MAIN4{
+    background-color: black;
+    height:500px;
+    margin-top:10px;
+    display:flex;
+    flex-direction: rows;
+    align-items: center;
+    padding-left:100px;
+}
+.main9{
+    color:white;
+}
+.main9>p:first-child{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold;
+
+}
+.main10{
+    
+    padding-left: 40px;
+}
+.MAIN5{
+    background-color: black;
+    color:white;
+    height: 500px;
+    margin-top:10px;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.main11{
+  margin-left: 100px;
+}
+.main12>p:first-child{
+  margin-left:60px;
+  font-size:50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold;
+}
+.main12 pre{
+    font-size:25px;
+}
+.MAIN6{
+    background-color: black;
+    height:900px;
+    margin-top:10px;
+    
+}
+.main13 p{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(44, 42, 42);
+    color:white;
+    height:80px;
+    width: 60vw;
+    align-items: center;
+    font-size:25px;
+    margin-left:200px;
+    padding:0 10px
+}
+.MAIN6 h1{
+    color:white;
+    margin-left:150px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.main14 p{
+    color:white;
+    font-size:25px;
+    
+
+}
+.main14 div{
+    display:flex;
+    align-items: center;
+    gap:5px
+}
+.main14{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main14a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main14a input{
+    background-color:black;
+    padding:20px;
+    border-radius: 10px;
+    color:white;
+    width: 250px;
+    height:25px;
+}
+.main14a button{
+    background-color: red;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    height:70px;
+    font-size:25px;
+    font-weight: bold;
+    width:250px;
+    
+}
+
+.MAIN7{
+    background-color: black;
+    height:330px;
+    color:grey;
+    
+    margin-top:10px;
+    padding-top:80px;
+    padding-left: 120px;
+    
+}
+
+.MAIN7>p{
+    
+}
+.main15{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:15px;
+    max-width:1000px;
+  text-decoration: underline;
+    
+}
+.MAIN7 button{
+display: flex;
+align-items: center;
+width: 100px;
+background-color: black;
+color:white;
+border:2px solid white;
+border-radius:5px;
+height:30px;
+}
+.main11 img{
+    border:2px solid black;
+    border-radius:10px
+    
+}
+@media only screen and (max-width:600px) and (min-width:300px){
+  .MAIN2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:750px;
+    width: 100vw;
+  }
+  .main10{
+    
+    padding-left: 10px;
+}
+  #div{
+    padding-left:80px;
+}
+.Main{
+    height: 700px;
+}
+  .main6{
+    padding-left:10px
+  }
+  .flex{
+    display:flex;
+    flex-direction: column;
+    padding-left:10px
+  }
+  .main13 p{
+    margin-left:50px;
+  }
+  .main13 h1{
+    margin-left:65px;
+  }
+  .main15{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .main14a{
+    display:flex;
+    flex-direction:column;
+  }
+  .MAIN6{
+    height:1100px;
+  }
+  .main11{
+    margin-left: 20px;
+  }
+  .MAIN4{
+    padding-left: 20px;
+}
+}
+@media only screen and (max-width:300px){
+.main15{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.MAIN7{
+height:900px;
+padding-left: 20px;
+}
+.flex{
+    height: 1000px;
+    display:flex;
+    flex-direction: column;
+    padding-top:30px;
+}
+.main13 p{
+    margin-left:50px;
+  }
+  .main13 h1{
+    margin-left:65px;
+  }
+  #div{
+    padding-left:80px;
+}
+
+  .main6{
+    padding-left:10px;
+
+  }
+  .main14a{
+    display:flex;
+    flex-direction:column;
+  }
+  .MAIN6{
+    height:1200px;
+  }
+  .main11{
+    margin-left: 20px;
+  }
+  .main10{
+    
+    padding-left: 10px;
+}
+.MAIN4{
+    padding-left: 20px;
+}
+}
+</style>
+</head>
+
+<body>
+    <div class="Main flex">
+        <div class="main2">
+            <span>Netflix</span>
+            <div id="div">
+                <button>english
+
+                </button>
+                <button style="background-color: red; border:2px solid red;">sign in</button>
+            </div>
+        </div>
+        <div class="main3">
+            <p>This is Netflix clone</p>
+            <p>Watch anywhere.Cancel anytime</p>
+            <p>Ready to watch?Enter your email to create or start your membership</p>
+        </div>
+        <div id="main4">
+            <input type="text" placeholder="Email Id">
+            <button>
+                <p>Get started</p><svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    style="background-color: red;">
+                    <path d="M8 4l8 8-8 8" stroke="white" stroke-width="2" fill="none" />
+                </svg>
+
+
+            </button>
+
+        </div>
+
+    </div>
+    <div class="MAIN2 flex">
+        <div class="main5">
+            <p>Enjoy on your Laptop</p>
+            <br>
+            <p>
+                Watch on smart TVs,PlayStation, Xbox,
+                Chromecast, Apple TV,Blue-ray players and
+                more.
+            </p>
+
+        </div>
+        <div class="main6">
+            <video height="200px" width="200px" src="ballondor (2).mp4" controls loop></video>
+        </div>
+    </div>
+    <div class="MAIN3 flex">
+        <div class="main7">
+            <img height="250px" width="300px" src="Screenshot (265).png">
+        </div>
+        <div class="main8">
+            <p>
+                Download your
+                show to watch
+                offline
+            </p>
+            <p>
+                Save your liked videos easily and always have
+                something to watch
+            </p>
+        </div>
+
+    </div>
+    <div class="MAIN4 flex">
+        <div class="main9">
+            <p>Watch everywhere</p>
+            <br>
+            <p style="font-size:25px;">Stream unlimited movies and tvshows on your</p>
+            <p style="font-size:25px;">phone,tablet,laptop and TV</p>
+        </div>
+        <div class="main10">
+            <video height="200px" width="200px" src="brucelee 5000.mp4" controls loop muted></video>
+        </div>
+    </div>
+    <div class="MAIN5 flex">
+        <div class="main11">
+            <img height=250px width=250px src="Screenshot (269).png">
+        </div>
+        <div class="main12">
+            <p>Create profile for children</p>
+            <p>
+                send kids on adventures with their
+                favourite characters in a space made just for
+                them - free with your membership
+            </p>
+        </div>
+    </div>
+    <div class="MAIN6 flex">
+        <br>
+        <br>
+        <br>
+        <div class="main13">
+            <h1>Frequently ask questions</h1>
+            <br>
+            <p><span>What is netflix</span><span>+</span></p>
+            <br>
+            <p><span>How much does Netflix cost?</span><span>+</span></p>
+            <br>
+            <p><span>Where can I watch?</span><span>+</span></p>
+            <br>
+            <p><span>How do I cancel?</span><span>+</span></p>
+            <br>
+            <p><span>What can I watch on Netflix</span><span>+</span></p>
+            <br>
+            <p><span>Is Netflix good for kids?</span><span>+</span></p>
+        </div>
+        <div class="main14">
+            <br>
+            <br>
+            <p>Ready to watch? Enter your email to create or restart membership</p>
+            <br>
+        </div>
+        <div class="main14a"><span><input type="text" placeholder="Email ID"></span>
+            <button>Get Started <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="5" y1="17" x2="15" y2="10" stroke="white" stroke-width="2" />
+                    <line x1="5" y1="2" x2="15" y2="10" stroke="white" stroke-width="2" />
+                </svg>
+            </button>
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+    <div class="MAIN7 flex">
+        <p>Questions? Call 000-800-919-1694</p>
+        <br>
+        <div class="main15">
+            <p>FAQ</p>
+            <p>Help Centre</p>
+            <p>Account</p>
+            <p>Media Centre</p>
+            <p>Investor Relations</p>
+            <p>Jobs</p>
+            <p>Ways to watch</p>
+            <p>Terms of Use</p>
+            <p>Privacy</p>
+            <p>Cookie Preferences</p>
+            <p>Corporate Information</p>
+            <p>Contact Us</p>
+            <p>Speed Test</p>
+            <p>Legal Notices</p>
+            <p>Only on Netflix</p>
+        </div>
+        <br>
+        <button><img height="20px" width="20px" src="Screenshot (271).png">
+            <pre> English </pre><svg height="8px" width="8px" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="4,4 2,1 6,1" style="fill:white;stroke:white;stroke-width:2px;">
+            </svg>
+        </button>
+        <br>
+        <pre style="text-decoration: none;"> Netlfix India</pre>
+    </div>
+
+</body>
+
+</html>
