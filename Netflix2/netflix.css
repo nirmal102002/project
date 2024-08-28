@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Main{
+    background-image:url(netflixbg.jpg);
+    
+    height:600px;
+    background-size: 100% 600px;
+    
+    /* background-position: cover; */
+    opacity:0.975;
+   
+}
+.main2{
+    display:flex;
+    justify-content: space-around;
+    height: 300px;
+    padding:20px;
+
+}
+#div{
+    padding-left:300px;
+}
+#div button{
+    background-color: black;
+    color:white;
+    padding:5px 20px;
+    border:1px solid;
+    border-radius:5px;
+    
+}
+.main2 > span{
+    font-size:xx-large;
+    color:red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.main3{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+}
+.main3 p:first-child{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main3 p:nth-child(2){
+    font-size:20px;
+}
+.main3 p:nth-child(3){
+    font-size:20px;
+}
+#main4{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin: 10px;
+}
+#main4>:nth-child(1){
+    height:60px;
+    width: 350px;
+    border-radius: 10px;
+    background-color:black;
+    opacity:0.4;
+    color:white;
+}
+
+ #main4 > button{
+    display:flex;
+    font-size:x-large;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+    background-color: red;
+    color:white;
+    width: 180px;
+    border:1px solid red;
+    border-radius: 10px;
+}
+.MAIN2{
+    background-color: black;
+    height:600px;
+    margin-top:10px;
+    display:flex;
+    
+}
+.main5 {
+width: 50vw;
+color:white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top:100px
+}
+body{
+    background-color: rgb(26, 25, 25);
+}
+.main5>p{
+    font-size: 23px;
+    padding-left:100px
+}
+.main5>p:first-child{
+    font-size:45px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main6{
+    display:flex;
+    align-items: center;
+    padding-left: 190px;
+}
+.MAIN3{
+   background-color: black;
+   height:500px;
+   margin-top:10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 100px;
+}
+.main8{
+color: white;
+
+}
+.main8 >:nth-child(1){
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.main8 >:nth-child(2){
+    padding-left:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.MAIN4{
+    background-color: black;
+    height:500px;
+    margin-top:10px;
+    display:flex;
+    flex-direction: rows;
+    align-items: center;
+    padding-left:100px;
+}
+.main9{
+    color:white;
+}
+.main9>p:first-child{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold;
+
+}
+.main10{
+    
+    padding-left: 40px;
+}
+.MAIN5{
+    background-color: black;
+    color:white;
+    height: 500px;
+    margin-top:10px;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.main11{
+  margin-left: 100px;
+}
+.main12>p:first-child{
+  margin-left:60px;
+  font-size:50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold;
+}
+.main12 pre{
+    font-size:25px;
+}
+.MAIN6{
+    background-color: black;
+    height:900px;
+    margin-top:10px;
+    
+}
+.main13 p{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(44, 42, 42);
+    color:white;
+    height:80px;
+    width: 60vw;
+    align-items: center;
+    font-size:25px;
+    margin-left:200px;
+    padding:0 10px
+}
+.MAIN6 h1{
+    color:white;
+    margin-left:150px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.main14 p{
+    color:white;
+    font-size:25px;
+    
+
+}
+.main14 div{
+    display:flex;
+    align-items: center;
+    gap:5px
+}
+.main14{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main14a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main14a input{
+    background-color:black;
+    padding:20px;
+    border-radius: 10px;
+    color:white;
+    width: 250px;
+    height:25px;
+}
+.main14a button{
+    background-color: red;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    height:70px;
+    font-size:25px;
+    font-weight: bold;
+    width:250px;
+    
+}
+
+.MAIN7{
+    background-color: black;
+    height:330px;
+    color:grey;
+    
+    margin-top:10px;
+    padding-top:80px;
+    padding-left: 120px;
+    
+}
+
+.MAIN7>p{
+    
+}
+.main15{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:15px;
+    max-width:1000px;
+  text-decoration: underline;
+    
+}
+.MAIN7 button{
+display: flex;
+align-items: center;
+width: 100px;
+background-color: black;
+color:white;
+border:2px solid white;
+border-radius:5px;
+height:30px;
+}
+.main11 img{
+    border:2px solid black;
+    border-radius:10px
+    
+}
+@media only screen and (max-width:600px) and (min-width:300px){
+  .MAIN2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:750px;
+    width: 100vw;
+  }
+  .main10{
+    
+    padding-left: 10px;
+}
+  #div{
+    padding-left:80px;
+}
+.Main{
+    height: 700px;
+}
+  .main6{
+    padding-left:10px
+  }
+  .flex{
+    display:flex;
+    flex-direction: column;
+    padding-left:10px
+  }
+  .main13 p{
+    margin-left:50px;
+  }
+  .main13 h1{
+    margin-left:65px;
+  }
+  .main15{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .main14a{
+    display:flex;
+    flex-direction:column;
+  }
+  .MAIN6{
+    height:1100px;
+  }
+  .main11{
+    margin-left: 20px;
+  }
+  .MAIN4{
+    padding-left: 20px;
+}
+}
+@media only screen and (max-width:300px){
+.main15{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.MAIN7{
+height:900px;
+padding-left: 20px;
+}
+.flex{
+    height: 1000px;
+    display:flex;
+    flex-direction: column;
+    padding-top:30px;
+}
+.main13 p{
+    margin-left:50px;
+  }
+  .main13 h1{
+    margin-left:65px;
+  }
+  #div{
+    padding-left:80px;
+}
+
+  .main6{
+    padding-left:10px;
+
+  }
+  .main14a{
+    display:flex;
+    flex-direction:column;
+  }
+  .MAIN6{
+    height:1200px;
+  }
+  .main11{
+    margin-left: 20px;
+  }
+  .main10{
+    
+    padding-left: 10px;
+}
+.MAIN4{
+    padding-left: 20px;
+}
+}
